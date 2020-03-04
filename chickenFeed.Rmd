@@ -43,7 +43,13 @@ boxplot of weight based on feed
 plot(weight~feed,data=chickenData)
 ```
 
+```{r}
+plot(weight~sex,data=chickenData)
+```
 
+```{r}
+plot(weight~speed,data=chickenData)
+```
 
 ### Numerical summary
 
