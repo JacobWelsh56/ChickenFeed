@@ -43,13 +43,19 @@ boxplot of weight based on feed
 plot(weight~feed,data=chickenData)
 ```
 
+It would appear there is a differnce in weight with feed. Casein and sunflower top out fairly high, but sunflower looks to be consistently the highest.
+
 ```{r}
 plot(weight~sex,data=chickenData)
 ```
 
+The medians are nearly the same, it would appear sex does not affect weight.
+
 ```{r}
 plot(weight~speed,data=chickenData)
 ```
+
+It does not appear speed affects weight.
 
 ### Numerical summary
 
